@@ -1,0 +1,69 @@
+:root {
+    --global-primary-font-family: 'Playfair Display', serif;
+    --global-primary-font-family-short: Playfair Display;
+    --global-secondary-font-family: 'Karla', serif;
+    --global-secondary-font-family-short: Karla;
+    --global-body-padding: 0px;
+    --global-background-color: #fff;
+    --global-body-font-size: 16px;
+    --global-h1-font-size: 70px;
+    --global-h2-font-size: 43px;
+    --global-h3-font-size: 30px;
+    --global-h4-font-size: 21px;
+    --global-h5-font-size: 17px;
+    --global-h6-font-size: 16px;
+    --global-section-padding: 96px;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --global-section-padding: 64px;
+    }
+}
+
+body {
+    padding: 0px;
+    background-color: #fff;
+    font-family: 'Karla', serif;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 43px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 16px;
+}
